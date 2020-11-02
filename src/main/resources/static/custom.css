@@ -1,0 +1,101 @@
+﻿.hid{
+    display:none !important;
+}
+.active-cart {
+    animation: bounce 1.5s infinite;
+    -webkit-animation: bounce 1.5s infinite;
+    -moz-animation: bounce 1.5s infinite;
+    -o-animation: bounce 1.5s infinite;
+}
+
+.banner-full {
+    margin-top: 20px;
+}
+
+.gwbbbulif-download-list {
+    background-image: url(/FrontEnd/Static/img/download-list.png);
+    /* padding-left: 25px; */
+    background-repeat: no-repeat;
+    /* font-family: 'NeurialGrotesk-Bold'; */
+    /* font-size: 15px; */
+    transition: all 0.5s;
+    background-position: 0px 0px;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.gwbhcsuli-func .gwbbbulif-download-list {
+    background-position: 0px 0px;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.gwbbbu-li:hover .gwbbbulif-download-list {
+    opacity: 1;
+}
+
+.swal2-container.swal2-center {
+    z-index: 99993 !important;
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-8px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-4px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-8px);
+    }
+
+    60% {
+        -moz-transform: translateY(-4px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -o-transform: translateY(0);
+    }
+
+    40% {
+        -o-transform: translateY(-8px);
+    }
+
+    60% {
+        -o-transform: translateY(-4px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-8px);
+    }
+
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+.medium-insert-buttons{
+    display:none !important;
+}
